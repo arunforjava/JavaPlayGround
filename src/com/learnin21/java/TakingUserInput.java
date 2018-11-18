@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class TakingUserInput {
 	
 	public static void main(String[] args) {
+		//Basic program to take user inputs with two examples 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please enter your First Name: ");
 		String firstName=scanner.nextLine();
